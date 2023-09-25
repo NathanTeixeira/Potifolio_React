@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(19, 18, 18);
+    color: white;
+    font-family: poppinsregular;
+    margin: 0 auto;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.redes {
+    display: flex;
+    margin-left: 570px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.redes p {
+    transform: translate(70px);
+}
+
+.Link_color {
+    color: white;
+    text-decoration: none;
+}
+
+.Link_color:hover {
+    color: white;
+    transition: 0.3s all;
+    range: 100%;
+}
+
+Link:hover {
+    color: #0B8705;
+    transition: 0.3s all;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 30px;
+    font-family: Poppinsmedium;
+    max-width: 500px;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 35px;
+    font-family: Poppinsregular;
+    max-width: 490px;
+}
+
+p {
+    line-height: 27px;
+    max-width: 500px;
+    font-family: poppinslight;
+    font-size: 20px;
+}
+
+.image {
+    width: 480px;
+    display: block;
+    margin-left: 450px;
+    margin-right: auto;
+}
+
+.box {
+    width: 65px;
+    height: 68px;
+    display: inline-flex;
+    align-items: center;
+    padding: 5px;
+    margin: 0.6rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.box:hover {
+    width: 170px;
+    height: 50px;
+    background: #c32aa3;
+    border-radius: 35px;
+    color: #fff;
+    box-shadow: 0 0 20px #b315917c;
+}
+
+.box:nth-child(1):hover {
+    background: #171515;
+    box-shadow: 0 0 20px #1876f285;
+}
+
+.box:nth-child(2):hover {
+    background: #1da1f2;
+    box-shadow: 0 0 20px #1da0f280;
+}
+
+.box:nth-child(3):hover {
+    background: #25d366;
+    box-shadow: 0 0 20px #1876f285;
+}
+
+.box .icon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all .4s ease;
+}
+
+.icon {
+    font-size: 25px;
+}
+
+.box:hover .icon {
+    background: #fff;
+    color: #020202;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.26);
+}
+
+.github {
+    background-color: #000000;
+}
+
+.linkedin {
+    background-color: #0072b1;
+}
+
+.whatsapp {
+    background-color: #25d366;
+}
