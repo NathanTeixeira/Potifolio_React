@@ -12,10 +12,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
         <Route element={<App />}>
-          <Route path="/"  element={<Home />} />
-          <Route path="/contato" element={<Contato />} />
-          <Route path="/sobre" element={<Sobre />} />
-          <Route path="/projetos" element={<Projetos />} />
+          <Route path="/Potifolio_React"  element={<Home />} />
+          <Route path="/Potifolio_React/contato" element={<Contato />} />
+          <Route path="/Potifolio_React/sobre" element={<Sobre />} />
+          <Route path="/Potifolio_React/projetos" element={<Projetos />} />
         </Route>
       </Routes>
     </BrowserRouter>
