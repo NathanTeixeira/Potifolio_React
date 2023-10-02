@@ -8,7 +8,7 @@ function Header() {
         <Container >
           <Navbar.Brand href="/">Nathan Teixeira</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="/Potifolio_React">Home</Nav.Link>
+            <Nav.Link href="/Potifolio_React/">Home</Nav.Link>
             <Nav.Link href="/Potifolio_React/contato">Contato</Nav.Link>
             <Nav.Link href="/Potifolio_React/sobre">Sobre</Nav.Link>
             <Nav.Link href="/Potifolio_React/projetos">Projetos</Nav.Link>
